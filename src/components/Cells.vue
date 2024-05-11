@@ -1,9 +1,9 @@
-<!-- eslint-disable vue/multi-word-component-names -->
+<!-- eslint-disable @typescript-eslint/no-unused-vars vue/multi-word-component-names -->
 <script setup lang="ts">
 interface Cell {
   owner: string
   building: {
-    type: string
+    type: 'none' | 'attack' | 'store' | 'transportation'
     level: number
   }
 }
@@ -15,6 +15,8 @@ var cell: Cell = {
     level: 0
   }
 }
+
+defineExpose({ cell })
 </script>
 
 <template>

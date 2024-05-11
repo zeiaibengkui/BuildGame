@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import Map from './components/Map.vue'
+import Music from './components/Music.vue'
 </script>
 
 <template>
   <nav><h1>Build Game</h1></nav>
   <Map></Map>
+  <Music></Music>
 </template>
 
 <style scoped lang="scss">
