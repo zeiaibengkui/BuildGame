@@ -5,6 +5,7 @@ import '@popperjs/core' // bootstrap定位文件
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.scss'
+import 'axios'
 import './assets/style/main.scss'
 
 import { createApp } from 'vue'
